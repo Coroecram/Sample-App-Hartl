@@ -6,11 +6,32 @@ User.create!(name:  "Example User",
              activated: true,
              activated_at: Time.zone.now)
 
-User.create!(name:  "Example User",
+User.create!(name:  "Example User2",
              email: "user@example.com",
              password:              "password",
              password_confirmation: "password",
              admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
+             
+User.create!(name:  "Example User3",
+             email: "cecilia@delafuente.com",
+             password:              "password",
+             password_confirmation: "password",
+             activated: true,
+             activated_at: Time.zone.now)            
+             
+User.create!(name:  "Example User4",
+             email: "nick@nice.com",
+             password:              "password",
+             password_confirmation: "password",
+             activated: true,
+             activated_at: Time.zone.now)
+             
+User.create!(name:  "Example User5",
+             email: "tongtong@zhu.com",
+             password:              "password",
+             password_confirmation: "password",
              activated: true,
              activated_at: Time.zone.now)
 
